@@ -1,0 +1,45 @@
+#main
+{
+	letter-spacing: 0.1em;
+    font-weight: 100;
+    font-size: 8em;
+    font-family: "Slim-Joe";
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    z-index:999;
+    margin-bottom: -10%;
+}
+@font-face {
+font-family: Slim-Joe;
+src: url("../fonts/Slim-Joe.otf") format("opentype");
+}
+body
+{
+	background:url(../images/main6.jpg);
+	background-size: cover;
+}
+
+html
+{
+	height:100%;
+}
+#main2{
+letter-spacing: 0.1em;
+    font-weight: 100;
+    font-size: 2em;
+    font-family: "Slim-Joe";
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    margin-bottom: -10%;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 100;
+    
+}
