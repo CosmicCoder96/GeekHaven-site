@@ -41,7 +41,7 @@ header h3 a:hover {
   width: 100px;
   height: 100px;
   position: absolute;
-  margin-bottom:-10%;
+  margin-bottom:0;
   top: 50%;
   left: 50%;
   z-index:1;
@@ -55,7 +55,7 @@ header h3 a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  background: #e74c3c;
+  background: #8c1205;
   color: #fff;
   display: inline-block;
   line-height: 100px;
