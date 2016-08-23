@@ -19,6 +19,7 @@ body
 {
 	background:url(../images/main6.jpg);
 	background-size: cover;
+	
 }
 
 html
@@ -274,12 +275,13 @@ Main Components
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 #wrapper {
   margin: auto;
-  position: absolute;
+  /*position: absolute;*/
   
-  bottom: 6.5em;
+  
   left:0;
   right:0;
   margin: 0 auto;
+  margin-top:-7.4%;
   height: 1em;
   z-index:0;
 }
