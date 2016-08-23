@@ -74,6 +74,11 @@ header h3 a:hover {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+#circle-menu .menu-trigger:hover
+{
+background-color:#a71405;
+border :2px solid #a71405;
+}
 #circle-menu .menu-trigger:before,
 #circle-menu .menu-trigger:after {
   position: absolute;
