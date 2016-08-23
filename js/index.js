@@ -7,8 +7,10 @@
 }).call(this);
 
 var flag=0;
-  $("#circle-menu").click(function(){
+  $(".menu-trigger").click(function(){
+	
   	if(flag==0){
+	$("#wrapper").css({'visibility':'hidden'});
   		$('.test').css({
   	
    'filter'         : 'blur(5px)',
@@ -17,7 +19,9 @@ var flag=0;
    '-o-filter'      : 'blur(5px)',
    '-ms-filter'     : 'blur(5px)'
 });
-  		flag =1;}
+	
+  		flag =1;
+}
   		else
   		{
   				$('.test').css({
@@ -28,6 +32,7 @@ var flag=0;
    '-o-filter'      : 'blur(0px)',
    '-ms-filter'     : 'blur(0px)'
 });
+	$("#wrapper").css({'visibility':'visible'});
   				flag=0;
   		}
 
