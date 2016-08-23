@@ -10,6 +10,7 @@ var flag=0;
   $(".menu-trigger").click(function(){
 	
   	if(flag==0){
+  $(".fa-power-off").css({'visibility':'hidden'});
 	$("#wrapper").css({'visibility':'hidden'});
   		$('.test').css({
   	
@@ -32,6 +33,8 @@ var flag=0;
    '-o-filter'      : 'blur(0px)',
    '-ms-filter'     : 'blur(0px)'
 });
+    $(".fa-power-off").css({'visibility':'visible'});
+
 	$("#wrapper").css({'visibility':'visible'});
   				flag=0;
   		}
