@@ -3,19 +3,64 @@
 <head>
 	<title>GeekHaven</title>
 	 <link rel="stylesheet" href="css/normalize.css">
-
+	     <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	
     <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>	
+<!-- Resource style -->
+	<script src="js/modernizr.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 	<link rel = "stylesheet" type = "text/css" href = "css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-
+	
 
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src = "logo.png"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+        	<section class="cd-section">
+
+		<div class="cd-modal-action">
+			<a href="#0" class="btn" data-type="modal-trigger">About us</a>
+			<span class="cd-modal-bg"></span>
+		</div> <!-- cd-modal-action -->
+
+		<div class="cd-modal">
+			<div class="cd-modal-content">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi repellendus, optio eveniet eligendi molestiae? Fugiat, temporibus! A rerum pariatur neque laborum earum, illum voluptatibus eum voluptatem fugiat, porro animi tempora? Sit harum nulla, nesciunt molestias, iusto aliquam aperiam est qui possimus reprehenderit ipsam ea aut assumenda inventore iste! Animi quaerat facere repudiandae earum quisquam accusamus tempora, delectus nesciunt, provident quae aliquam, voluptatum beatae quis similique in maiores repellat eligendi voluptas veniam optio illum vero! Eius, dignissimos esse eligendi veniam.
+				</p>
+
+				
+			</div> <!-- cd-modal-content -->
+		</div> <!-- cd-modal -->
+
+		<a href="#0" class="cd-modal-close">Close</a>
+	</section> <!-- .cd-section -->
+        </li>
+       
+      </ul>
+        </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
 
 <div class="pattern"></div>
 	
@@ -25,7 +70,7 @@
 		<h4 id="main2" class = "test">Technical Society of IIIT ALlahabad</h4>
 	</div>
 	<div id="stage">
-  <div id="circle-menu"><a href="#" data-open="OPEN" ata-close="CLOSE" class="menu-trigger"></a>
+  <div id="circle-menu"><a href="#" data-open="OPEN" data-close="CLOSE" class="menu-trigger"></a>
     <ul>
       <li><a href="#" class = "link"> WebD</a></li>
       <li><a href="#" class = "link"> AppD</a></li>
@@ -41,7 +86,12 @@
 </div>
 
 </body>
+
  <script src='http://codepen.io/assets/libs/fullpage/jquery.js'></script>
- <script src="js/index.js"></script>
  
+
+<script src="js/velocity.min.js"></script>
+<script src="js/modal.js"></script> 
+  <script src="js/index.js"></script>
+
 </html>
