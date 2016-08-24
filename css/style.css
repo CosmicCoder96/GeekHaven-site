@@ -7,20 +7,20 @@ body {
 }
 header {
   text-align: center;
-  padding: 120px 0;
+  padding: 15.6vmin 0;
   background: #fff;
 }
 header h1 {
-  margin: 0 0 15px 0;
+  margin: 0 0 1.93vmin 0;
   padding: 0;
-  font-size: 42px;
+  font-size: 5.46vmin;
   font-weight: normal;
 }
 header h3 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 1.82vmin;
   font-weight: bold;
   color: #999;
 }
@@ -34,12 +34,12 @@ header h3 a:hover {
 }
 #stage {
   position: relative;
-  height: 500px;
+  height: 65vmin;
 }
 #circle-menu {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 13vmin;
+  height: 13vmin;
   position: absolute;
   margin-bottom:0;
   top: 50%;
@@ -58,7 +58,7 @@ header h3 a:hover {
   background: #8c1205;
   color: #fff;
   display: inline-block;
-  line-height: 100px;
+  line-height: 13vmin;
   text-align: center;
   z-index: 9;
   text-decoration: none;
