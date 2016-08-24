@@ -41,3 +41,8 @@ var flag=0;
 
 
 	});
+
+$(document).ready(function(){
+$('body').toggleClass("loaded");
+});
+
