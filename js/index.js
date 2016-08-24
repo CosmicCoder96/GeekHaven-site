@@ -42,7 +42,7 @@ var flag=0;
 
 	});
 
-$(document).ready(function(){
+$(window).on("load", function() {
 $('body').toggleClass("loaded");
 });
 
