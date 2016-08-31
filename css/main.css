@@ -612,3 +612,11 @@ Main Components
     -webkit-transition: all 0.3s 1s ease-out; 
                 transition: all 0.3s 1s ease-out;
 }
+.modal-icon a
+{
+	color:white;
+}
+.modal-icon a:hover
+{
+	color:gray;
+}
